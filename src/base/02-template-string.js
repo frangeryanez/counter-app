@@ -1,5 +1,5 @@
-const nameUser = 'Franger';
-const lastNameUser = 'Yanez';
+const nameUser = 'Fernando';
+const lastNameUser = 'Herrera';
 
 // const fullNameUser = nameUser + ' ' + lastNameUser;
 const fullNameUser = `${nameUser} ${lastNameUser}`;
