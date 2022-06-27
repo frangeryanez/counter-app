@@ -16,13 +16,28 @@ export const CounterApp = ({ value }) => {
       <h1>CounterApp</h1>
       <h2>{ counter }</h2>
       <div xs={12} className="pt-2">
-        <Button className="me-2" variant="primary" onClick={ handleAdd }>
+        <Button 
+          aria-label="btn-add"
+          className="me-2" 
+          variant="primary" 
+          onClick={ handleAdd }
+        >
           +1
         </Button>
-        <Button className="me-2" variant="danger" onClick={ handleSubtract }>
+        <Button 
+          aria-label="btn-subtract"
+          className="me-2" 
+          variant="danger" 
+          onClick={ handleSubtract }
+        >
           -1
         </Button>
-        <Button className="me-2" variant="info" onClick={ handleReset }>
+        <Button 
+          aria-label="btn-reset"
+          className="me-2" 
+          variant="info" 
+          onClick={ handleReset }
+        >
           Reset
         </Button>
       </div>

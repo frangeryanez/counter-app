@@ -6,8 +6,9 @@ export const FirstApp = ({ greetings, subTitle }) => {
   // if (!greetings) throw new Error('The greetings does not exist');
   return (
     <>
-      <h1>{ greetings }</h1>
-      <p>{ subTitle }</p>
+      <h1 data-testid="test-title">{ greetings }</h1>
+      <p data-testid="test-subtitle">{ subTitle }</p>
+      <p data-testid="test-subtitle">{ subTitle }</p>
     </>
   );
 };
